@@ -1,0 +1,7 @@
+
+yml file:- 
+ dev_dependencies: 
+  change_app_package_name: lates version
+
+cmd:- 
+flutter pub run change_app_package_name:main
