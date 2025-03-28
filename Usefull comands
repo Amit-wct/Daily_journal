@@ -1,0 +1,16 @@
+scp (local -> remote)
+
+scp -i ssh_staff_108 -r /Users/amit/Development/API_work/bics.py staff@mail005.ownmail.com:/usr/local/ownmail/bin/bics/.
+
+reverse scp ( local <- remote) pull
+
+scp -i ssh_staff_108 staff@mail005.ownmail.com:/usr/local/ownmail/bin/bics/bics.py /Users/amit/Development/API_work/
+
+
+grant commands in db
+
+GRANT USAGE ON SCHEMA public TO domains_role ;
+
+grant SELECT, INSERT,  update,  DELETE, REFERENCES, TRIGGER on all tables in schema public to domains_role;
+
+GRANT USAGE, SELECT ON ALL SEQUENCES IN SCHEMA public TO domains_role ;
